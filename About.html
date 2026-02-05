@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <link rel="stylesheet" href="about.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Scroll to the top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!--  -->
+    <header>
+      <div class="header-wrapper container">
+        <div class="navbar">
+          <nav>
+            <div class="logo">
+              <a href="index.html"
+                ><img src="/images/logo.png" alt="" width="50"
+              /></a>
+            </div>
+
+            <div class="right-nav">
+              <div class="menu" onclick="openMenu()">
+                <p class="tooltip">Menu</p>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+              </div>
+
+              <div class="nav-btn">
+                <button>
+                  <a href="contact.html"
+                    >Contact Me <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+            <!-- Menu -->
+
+            <div class="menu-dropdown">
+              <div class="menu-dropdown-content">
+                <div class="close" onclick="closeMenu()">
+                  <i class="fa-solid fa-close"></i>
+                </div>
+                <h1>Menu</h1>
+                <div class="dropdown-row">
+                  <div class="col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="About.html">About</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="contact.html">Get in Touch</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col">
+                    <h3>Contacts</h3>
+                    <div class="socials">
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-facebook"></i> Facebook</a
+                      >
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>TikTok</a
+                      >
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>Instagram</a
+                      >
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>Formerly
+                        Twitter</a
+                      >
+                    </div>
+
+                    <h3>Address</h3>
+                    <a href="" target="_blank"
+                      ><i class="fa-solid fa-map"></i>33 Anywhere street
+                      london</a
+                    >
+
+                    <h3>Phone Number</h3>
+                    <a
+                      href="tel:
+                    =2349036817523"
+                      target="_blank"
+                      ><i class="fa-solid fa-phone">+2349036817523</i></a
+                    >
+                  </div>
+                </div>
+
+                <div class="dropdown-text-content">
+                  <h3>We are the best out there</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tenetur soluta nihil dolorem omnis ab, libero animi dolor
+                    tempora assumenda facilis vitae, eaque delectus sint cumque
+                    et accusantium doloremque cum nemo?
+                  </p>
+
+                  <button>
+                    <a href="services.html"
+                      >View Service <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Hero -->
+    <section class="about-section">
+      <div class="about-hero-wrapper container">
+        <div class="about-content">
+          <h3 class="badge">Our successful journey started right here</h3>
+          <h2>Our Story</h2>
+          <div class="team-image"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--About us  -->
+
+    <section class="who-we-are">
+      <div class="who-we-are-wrapper container">
+        <div class="wwa-content">
+          <h3 class="badge">Who we are</h3>
+          <p>
+            We're a team of creators and builders crafting memorable brands and
+            digital experiences. Whether starting fresh or scaling up, we
+            transform your vision into bold creativity.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process">
+      <div class="process-wrapper container">
+        <div class="process-content">
+          <div class="top-text">
+            <h3 class="badge">How we Work</h3>
+            <h2 class="heading">Our Process</h2>
+          </div>
+        </div>
+
+        <div class="process-row">
+          <div
+            class="process-col expand"
+            style="
+              background: url(images/image\ copy\ 6.png) no-repeat center/cover;
+            "
+          >
+            <div class="title">
+              <h3>1. Discover</h3>
+            </div>
+
+            <div class="hover-display">
+              <h3>1. Discover</h3>
+              <p>
+                We begin with in-depth discovery sessions to fully understand
+                your brand.
+              </p>
+            </div>
+          </div>
+          <div
+            class="process-col"
+            style="
+              background: url(images/image\ copy\ 7.png) no-repeat center/cover;
+            "
+          >
+            <div class="title">
+              <h3>2. Define</h3>
+            </div>
+
+            <div class="hover-display">
+              <h3>2. Define</h3>
+              <p>
+                We create a clear roadmap. It’s strategy meets creativity to set
+                the foundation.
+              </p>
+            </div>
+          </div>
+          <div
+            class="process-col"
+            style="
+              background: url(images/image\ copy\ 8.png) no-repeat center/cover;
+            "
+          >
+            <div class="title">
+              <h3>3. Design</h3>
+            </div>
+
+            <div class="hover-display">
+              <h3>3. Design</h3>
+              <p>
+                We explore brand identity, UI/UX, layouts, typography, and
+                interaction design.
+              </p>
+            </div>
+          </div>
+          <div
+            class="process-col"
+            style="
+              background: url(images/image\ copy\ 9.png) no-repeat center/cover;
+            "
+          >
+            <div class="title">
+              <h3>4. Develop</h3>
+            </div>
+
+            <div class="hover-display">
+              <h3>4. Develop</h3>
+              <p>
+                We turn static designs into high-performance, scalable digital
+                experiences.
+              </p>
+            </div>
+          </div>
+          <div
+            class="process-col"
+            style="
+              background: url(images/image\ copy\ 5.png) no-repeat center/cover;
+            "
+          >
+            <div class="title">
+              <h3>5. Deliver</h3>
+            </div>
+
+            <div class="hover-display">
+              <h3>5. Deliver</h3>
+              <p>
+                We ensure a smooth launch & provide ongoing support to help your
+                brand thrive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+
+    <!-- Mission -->
+
+    <section class="mission">
+      <div class="mission-wrapper container">
+        <div class="mission-content">
+          <div class="mission-row">
+            <div class="mission-col">
+              <h3 class="badge">Our successful journey started right here</h3>
+              <h2 class="heading">Our Mission</h2>
+              <p class="big-text">
+                To design meaningful brands and digital experiences that inspire
+                action and spark connection.
+              </p>
+              <p style="margin-top: 10px" class="big-text">
+                We believe creativity should drive results. Our mission is to
+                elevate brands through intentional design, strategic thinking,
+                and collaborative partnerships.
+              </p>
+            </div>
+            <div class="mission-col col-back"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+
+    <!-- Vision -->
+
+    <section class="vision">
+      <div class="vision-wrapper container">
+        <div class="vision-content">
+          <div class="vision-row">
+            <div class="vision-col vision-back"></div>
+            <div class="vision-col">
+              <h3 class="badge">Design, Strategy, Results—No Compromise</h3>
+              <h2 class="heading">Our Vision</h2>
+              <p class="big-text">
+                To become a trusted creative partner for forward-thinking brands
+                worldwide.
+              </p>
+              <p style="margin-top: 10px" class="big-text">
+                We envision a world where every brand tells a compelling story
+                through design — one that’s not only beautiful but built to
+                grow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team-section">
+      <div class="team-wrapper container">
+        <div class="team-content">
+          <h2 class="badge" style="margin-bottom: 20px">
+            We're a team of creative minds
+          </h2>
+          <h3>Our Team</h3>
+          <div class="team-section-row">
+            <div class="team-col">
+              <div class="team-img">
+                <img src="images/image copy.png" alt="" />
+              </div>
+              <div class="team-details">
+                <h2>Akintunde Victor</h2>
+                <p>Front End</p>
+              </div>
+            </div>
+            <div class="team-col">
+              <div class="team-img">
+                <img src="images/image copy 2.png" alt="" />
+              </div>
+              <div class="team-details">
+                <h2>Segun Olayiwola</h2>
+                <p>UI/UX Designer</p>
+              </div>
+            </div>
+            <div class="team-col">
+              <div class="team-img">
+                <img src="images/image copy.png" alt="" />
+              </div>
+              <div class="team-details">
+                <h2>Micheal Taiwo</h2>
+                <p>Backend</p>
+              </div>
+            </div>
+            <div class="team-col">
+              <div class="team-img">
+                <img src="images/image copy 3.png" alt="" />
+              </div>
+              <div class="team-details">
+                <h2>Gbemi Amos</h2>
+                <p>Graphic Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <!-- FAQ -->
+
+    <section class="faq">
+      <div class="faq-wrapper container">
+        <div class="faq-content">
+          <div class="faq-content-text">
+            <h3 class="badge">Frequently asked Question</h3>
+            <h2 class="heading">Common Inquiries</h2>
+          </div>
+          <!--  -->
+          <div class="faq-tab">
+            <div class="faq-header">
+              <h2>01. What services do you offer?</h2>
+              <div class="faq-close">
+                <i class="fa-solid fa-close"></i>
+              </div>
+            </div>
+            <div class="faq-body open">
+              <p class="big-text">
+                Project timelines vary based on scope, but most branding
+                projects take 3–4 weeks, and full website projects take 6–8
+                weeks. We’ll give you a clear timeline before we start.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div class="faq-tab">
+            <div class="faq-header">
+              <h2>02. What is your pricing structure?</h2>
+              <div class="faq-close">
+                <i class="fa-solid fa-close"></i>
+              </div>
+            </div>
+            <div class="faq-body">
+              <p class="big-text">
+                We offer flexible pricing based on project needs — from fixed
+                packages for startups to custom quotes for larger engagements.
+                Let’s chat and find the best fit for you.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div class="faq-tab">
+            <div class="faq-header">
+              <h2>03. Can you work with existing brand assets or websites?</h2>
+              <div class="faq-close">
+                <i class="fa-solid fa-close"></i>
+              </div>
+            </div>
+            <div class="faq-body">
+              <p class="big-text">
+                Absolutely. We can refresh and expand on your current assets or
+                work from the ground up, depending on your needs and goals.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div class="faq-tab">
+            <div class="faq-header">
+              <h2>04. What industries do you work with?</h2>
+              <div class="faq-close">
+                <i class="fa-solid fa-close"></i>
+              </div>
+            </div>
+            <div class="faq-body">
+              <p class="big-text">
+                We’ve worked with a wide range—from tech and wellness to fashion
+                and finance. Our creative process adapts to any industry with a
+                user-first approach.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div class="faq-tab">
+            <div class="faq-header">
+              <h2>05. How long does a typical project take?</h2>
+              <div class="faq-close">
+                <i class="fa-solid fa-close"></i>
+              </div>
+            </div>
+            <div class="faq-body">
+              <p class="big-text">
+                Project timelines vary based on scope, but most branding
+                projects take 3–4 weeks, and full website projects take 6–8
+                weeks. We’ll give you a clear timeline before we start.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <!--scrolling text  -->
+
+    <div class="ticker-container">
+      <div class="ticker-text container">
+        <div class="thicker-text-content">
+          <div class="sliding-text">
+            <img src="images/icon1.svg" alt="" />
+            <p>Let's collaborate to something amazing</p>
+          </div>
+          <div class="right-slide">
+            <img src="images/icon1.svg" alt="" />
+            <p>Let's collaborate to something amazing</p>
+          </div>
+          <div class="ticker-btn">
+            <button>
+              <a href="#"
+                >Schedule call <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- footer -->
+
+    <footer>
+      <div class="footer-wrapper container">
+        <div class="footer-content">
+          <div class="footer-row">
+            <div class="footer-col">
+              <h3>Quick links</h3>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h3>Others</h3>
+              <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h3>Follow Us</h3>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">instagram</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">X</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="site-title">
+            <h1>MADE BY VICTOR</h1>
+          </div>
+          <div class="footer-bottom">
+            <div class="site-image">
+              <img src="images/logo.png" />
+            </div>
+            <div>
+              <p>© Copyright 2026, All Rights Reserved by Victor Digitals</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  -->
+    <script src="script.js"></script>
+  </body>
+</html>

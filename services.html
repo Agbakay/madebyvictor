@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <link rel="stylesheet" href="services.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Scroll to the top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!--  -->
+    <header>
+      <div class="header-wrapper container">
+        <div class="navbar">
+          <nav>
+            <div class="logo">
+              <a href="index.html"
+                ><img src="/images/logo.png" alt="" width="50"
+              /></a>
+            </div>
+
+            <div class="right-nav">
+              <div class="menu" onclick="openMenu()">
+                <p class="tooltip">Menu</p>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+              </div>
+
+              <div class="nav-btn">
+                <button>
+                  <a href="contact.html"
+                    >Contact Me <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+            <!-- Menu -->
+
+            <div class="menu-dropdown">
+              <div class="menu-dropdown-content">
+                <div class="close" onclick="closeMenu()">
+                  <i class="fa-solid fa-close"></i>
+                </div>
+                <h1>Menu</h1>
+                <div class="dropdown-row">
+                  <div class="col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="About.html">About</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="contact.html">Get in Touch</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col">
+                    <h3>Contacts</h3>
+                    <div class="socials">
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-facebook"></i> Facebook</a
+                      >
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>TikTok</a
+                      >
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>Instagram</a
+                      >
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>Formerly
+                        Twitter</a
+                      >
+                    </div>
+
+                    <h3>Address</h3>
+                    <a href="" target="_blank"
+                      ><i class="fa-solid fa-map"></i>33 Anywhere street
+                      london</a
+                    >
+
+                    <h3>Phone Number</h3>
+                    <a
+                      href="tel:
+                    =2349036817523"
+                      target="_blank"
+                      ><i class="fa-solid fa-phone">+2349036817523</i></a
+                    >
+                  </div>
+                </div>
+
+                <div class="dropdown-text-content">
+                  <h3>We are the best out there</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tenetur soluta nihil dolorem omnis ab, libero animi dolor
+                    tempora assumenda facilis vitae, eaque delectus sint cumque
+                    et accusantium doloremque cum nemo?
+                  </p>
+
+                  <button>
+                    <a href="services.html"
+                      >View Service <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Hero -->
+    <section class="services-section">
+      <div class="service-wrapper container">
+        <div class="services-content">
+          <h3 class="badge">What we do for you</h3>
+          <h2 class="heading">Our Services</h2>
+        </div>
+      </div>
+    </section>
+
+    <!--About us  -->
+
+    <section class=".services-list">
+      <div class="services-list-wrapper container">
+        <div class="services-list-section">
+          <!--  -->
+          <!--  -->
+          <div class="services_row">
+            <div class="left services_col">
+              <img src="images/image copy 11.png" alt="" />
+            </div>
+            <div class="right services_col">
+              <h2>01. Branding & Identity</h2>
+              <p class="big-text">
+                We create more than just logos, build complete visual identities
+                that reflect your brand’s voice, values, and vision.
+              </p>
+              <div class="list">
+                <ul>
+                  <li>Logo design & brandmarks</li>
+                  <li>Visual identity systems</li>
+                  <li>Tone of voice & messaging</li>
+                </ul>
+
+                <div class="service-btn">
+                  <a href="contact.html"
+                    >Get in Touch <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="services_row" style="flex-direction: row-reverse">
+            <div class="left services_col">
+              <img src="images/image copy 5.png" alt="" />
+            </div>
+            <div class="right services_col">
+              <h2>2. UI/UX Design</h2>
+              <p class="big-text">
+                We design intuitive, engaging, and conversion-focused digital
+                experiences. Whether it’s a app or a complex web.
+              </p>
+              <div class="list">
+                <ul>
+                  <li>User journey mapping</li>
+                  <li>Wireframes, prototyping & UI</li>
+                  <li>Interaction & accessibility design</li>
+                </ul>
+
+                <div class="service-btn">
+                  <a href="contact.html"
+                    >Get in Touch <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <div class="services_row">
+            <div class="left services_col">
+              <img src="images/image copy 12.png" alt="" />
+            </div>
+            <div class="right services_col">
+              <h2>3. Web Development</h2>
+              <p class="big-text">
+                We create more than just logos, build complete visual identities
+                that reflect your brand’s voice, values, and vision.
+              </p>
+              <div class="list">
+                <ul>
+                  <li>Custom website development</li>
+                  <li>Webflow & CMS builds</li>
+                  <li>Frontend & backend integration</li>
+                </ul>
+
+                <div class="service-btn">
+                  <a href="contact.html"
+                    >Get in Touch <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+        </div>
+      </div>
+    </section>
+
+    <!--scrolling text  -->
+
+    <div class="ticker-container">
+      <div class="ticker-text container">
+        <div class="thicker-text-content">
+          <div class="sliding-text">
+            <img src="images/icon1.svg" alt="" />
+            <p>Let's collaborate to something amazing</p>
+          </div>
+          <div class="right-slide">
+            <img src="images/icon1.svg" alt="" />
+            <p>Let's collaborate to something amazing</p>
+          </div>
+          <div class="ticker-btn">
+            <button>
+              <a href="#"
+                >Schedule call <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- footer -->
+
+    <footer>
+      <div class="footer-wrapper container">
+        <div class="footer-content">
+          <div class="footer-row">
+            <div class="footer-col">
+              <h3>Quick links</h3>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h3>Others</h3>
+              <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h3>Follow Us</h3>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">instagram</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">X</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="site-title">
+            <h1>MADE BY VICTOR</h1>
+          </div>
+          <div class="footer-bottom">
+            <div class="site-image">
+              <img src="images/logo.png" />
+            </div>
+            <div>
+              <p>© Copyright 2026, All Rights Reserved by Victor Digitals</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  -->
+    <script src="script.js"></script>
+  </body>
+</html>

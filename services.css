@@ -1,0 +1,126 @@
+.services-section {
+  padding: 100px 0;
+}
+
+.badge {
+  padding: 10px 20px;
+  background: #eeeeee;
+  width: max-content;
+  border-radius: 50px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.services-content h2 {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+/* .services-list */
+
+.services {
+  padding: 100px 0;
+  position: relative;
+}
+
+.services_row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 40px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+.services_col {
+  width: 45%;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.services_col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.services_col li {
+  list-style: disc;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.services_col ul {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.services_col h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.right {
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+.service-btn a {
+  padding: 14px 20px;
+  background: transparent;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  transition: background 0.5s;
+}
+
+.service-btn a i {
+  transition: 0.5s;
+  margin-left: 10px;
+  rotate: -45deg;
+}
+
+.service-btn {
+  margin-top: 30px;
+}
+
+.service-btn a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.service-btn a:hover i {
+  rotate: 0deg;
+}
+
+@media (max-width: 768px) {
+  .services_row {
+    display: block;
+    position: relative;
+  }
+
+  .services_col {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .right {
+    padding-left: 30px;
+    padding-right: 0;
+  }
+
+  .services_col li {
+    list-style: disc;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+}

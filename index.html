@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Scroll to the top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!--  -->
+    <header>
+      <div class="header-wrapper container">
+        <div class="navbar">
+          <nav>
+            <div class="logo">
+              <a href="index.html"
+                ><img src="/images/logo.png" alt="" width="50"
+              /></a>
+            </div>
+
+            <div class="right-nav">
+              <div class="menu" onclick="openMenu()">
+                <p class="tooltip">Menu</p>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+              </div>
+
+              <div class="nav-btn">
+                <button>
+                  <a href="contact.html"
+                    >Contact Me <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+            <!-- Menu -->
+
+            <div class="menu-dropdown">
+              <div class="menu-dropdown-content">
+                <div class="close" onclick="closeMenu()">
+                  <i class="fa-solid fa-close"></i>
+                </div>
+                <h1>Menu</h1>
+                <div class="dropdown-row">
+                  <div class="col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="About.html">About</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="contact.html">Get in Touch</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col">
+                    <h3>Contacts</h3>
+                    <div class="socials">
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-facebook"></i> Facebook</a
+                      >
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>TikTok</a
+                      >
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>Instagram</a
+                      >
+                      <a href="" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>Formerly
+                        Twitter</a
+                      >
+                    </div>
+
+                    <h3>Address</h3>
+                    <a href="" target="_blank"
+                      ><i class="fa-solid fa-map"></i>33 Anywhere street
+                      london</a
+                    >
+
+                    <h3>Phone Number</h3>
+                    <a
+                      href="tel:
+                    =2349036817523"
+                      target="_blank"
+                      ><i class="fa-solid fa-phone">+2349036817523</i></a
+                    >
+                  </div>
+                </div>
+
+                <div class="dropdown-text-content">
+                  <h3>We are the best out there</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tenetur soluta nihil dolorem omnis ab, libero animi dolor
+                    tempora assumenda facilis vitae, eaque delectus sint cumque
+                    et accusantium doloremque cum nemo?
+                  </p>
+
+                  <button>
+                    <a href="services.html"
+                      >View Service <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- =============
+     Hero
+     =============== -->
+
+    <section class="hero">
+      <div class="hero-wrapper container">
+        <div class="hero-content">
+          <h1>Made By Victor</h1>
+          <p>We don’t just create brand—we convert</p>
+          <img src="/images/3d-logo.png" alt="" style="border-radius: 20px" />
+        </div>
+        <!-- <div class="hero-image">
+          <div class="left-image">
+            <img src="images/image copy 6.png" alt="" />
+          </div>
+          <div class="right-image">
+            <img src="images/image copy 6.png" alt="" />
+          </div>
+        </div> -->
+
+        <div class="scroll">
+          <a href="#services"
+            ><p>Scroll Down <i class="fa-solid fa-arrow-right"></i></p
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!--==============
+     Services
+     ============= -->
+
+    <section class="services" id="services">
+      <div class="services-wrapper container">
+        <div class="service-content">
+          <h3 class="badge">Our mission</h3>
+          <h2>
+            Empower businesses with solutions.<br />
+            <span>Creating strategies that drive</span>. <br />To optimize
+            performance efficiently.
+          </h2>
+          <p>
+            We don’t just build websites; we engineer digital ecosystems. By
+            transforming complex technical challenges into streamlined,
+            user-first interfaces, we provide the robust infrastructure
+            businesses need to scale without limits.
+          </p>
+
+          <div class="service-row">
+            <div class="service-col">
+              <img src="images/thumb2-kDwJfary.png" alt="" />
+              <div class="col-content">
+                <h3>Website Development</h3>
+                <p>
+                  We specialize in building high-performance web applications
+                  where <br />minimalist design meets complex engineering. By
+                  focusing on the intersection of speed, SEO, <br />and user
+                  psychology, we create platforms that don't just exist—they
+                  perform.
+                </p>
+
+                <div class="btn">
+                  <button>
+                    <a href="#">
+                      View More <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="service-col">
+              <img src="images/thumb5-DqVg6fPk.png" alt="" />
+              <div class="col-content">
+                <h3>Website Design</h3>
+                <p>
+                  Our approach to design is rooted in Psychological
+                  Minimalism.<br />
+                  I strip away the noise to highlight the value, ensuring that
+                  your business message<br />
+                  is the first thing a user sees and the last thing they forget.
+                </p>
+
+                <div class="btn">
+                  <button>
+                    <a href="#">
+                      View More <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="service-col">
+              <img src="images/thumb6-Do9kPChL.png" alt="" />
+              <div class="col-content">
+                <h3>Product Design</h3>
+                <p>
+                  We deliver visual assets that bridge the gap between brand
+                  identity and consumer action. <br />Whether it’s a custom SVG
+                  icon or a high-converting promotional banner, <br />Our
+                  designs are engineered to be clean, professional, and
+                  performance-ready.
+                </p>
+
+                <div class="btn">
+                  <button>
+                    <a href="#">
+                      View More <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+
+    <section class="call-to-action">
+      <div class="call-to-action-wrapper container">
+        <div class="cta-content">
+          <h2>Bring your ideas to life creatively!</h2>
+          <div class="cta-btn">
+            <button>
+              <a href=""
+                >View Our Work <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team-section">
+      <div class="team-wrapper container">
+        <div class="team-content">
+          <h2 class="badge">We're a team of creative minds</h2>
+          <h3 class="heading">Our Team</h3>
+          <div class="team-section-row">
+            <div class="team-col">
+              <div class="team-img">
+                <img src="images/image copy.png" alt="" />
+              </div>
+              <div class="team-details">
+                <h2>Akintunde Victor</h2>
+                <p>Front End</p>
+              </div>
+            </div>
+            <div class="team-col">
+              <div class="team-img">
+                <img src="images/image copy 2.png" alt="" />
+              </div>
+              <div class="team-details">
+                <h2>Segun Olayiwola</h2>
+                <p>UI/UX Designer</p>
+              </div>
+            </div>
+            <div class="team-col">
+              <div class="team-img">
+                <img src="images/image copy.png" alt="" />
+              </div>
+              <div class="team-details">
+                <h2>Micheal Taiwo</h2>
+                <p>Backend</p>
+              </div>
+            </div>
+            <div class="team-col">
+              <div class="team-img">
+                <img src="images/image copy 3.png" alt="" />
+              </div>
+              <div class="team-details">
+                <h2>Gbemi Amos</h2>
+                <p>Graphic Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <div class="ticker-container">
+      <div class="ticker-text container">
+        <div class="thicker-text-content">
+          <div class="sliding-text">
+            <img src="images/icon1.svg" alt="" />
+            <p>Let's collaborate to something amazing</p>
+          </div>
+          <div class="right-slide">
+            <img src="images/icon1.svg" alt="" />
+            <p>Let's collaborate to something amazing</p>
+          </div>
+          <div class="ticker-btn">
+            <button>
+              <a href="#"
+                >Schedule call <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-wrapper container">
+        <div class="footer-content">
+          <div class="footer-row">
+            <div class="footer-col">
+              <h3>Quick links</h3>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h3>Others</h3>
+              <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h3>Follow Us</h3>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">instagram</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">X</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="site-title">
+            <h1>MADE BY VICTOR</h1>
+          </div>
+          <div class="footer-bottom">
+            <div class="site-image">
+              <img src="images/logo.png" />
+            </div>
+            <div>
+              <p>© Copyright 2026, All Rights Reserved by Victor Digitals</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  -->
+    <script src="script.js"></script>
+  </body>
+</html>
