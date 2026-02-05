@@ -483,6 +483,7 @@ Hero
   .service-content h2 {
     font-size: 30px;
     margin-bottom: 30px;
+    margin-left: 0;
   }
 }
 

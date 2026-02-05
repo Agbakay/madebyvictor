@@ -15,11 +15,13 @@
   .badge {
     padding: 10px 20px;
     background: #eeeeee;
-    width: max-content;
+    display: inline-block;
     border-radius: 50px;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-weight: 500;
+    font-size: 20px;
+    text-align: center;
   }
 }
 
@@ -37,11 +39,12 @@
   .badge {
     padding: 10px 20px;
     background: #eeeeee;
-    width: max-content;
+    display: inline-block;
     border-radius: 50px;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-weight: 500;
+    font-size: 20px;
   }
 }
 
@@ -61,10 +64,11 @@
   .badge {
     padding: 10px 20px;
     background: #eeeeee;
-    width: max-content;
+    display: inline-block;
     border-radius: 50px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    font-size: 20px;
     font-weight: 500;
   }
 }
@@ -81,11 +85,12 @@
   .badge {
     padding: 10px 20px;
     background: #eeeeee;
-    width: max-content;
+    display: inline-block;
     border-radius: 50px;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-weight: 500;
+    font-size: 20px;
   }
 }
 
@@ -102,10 +107,11 @@
   .badge {
     padding: 10px 20px;
     background: #eeeeee;
-    width: max-content;
+    display: inline-block;
     border-radius: 50px;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-weight: 500;
+    font-size: 20px;
   }
 }
