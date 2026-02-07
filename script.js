@@ -61,3 +61,37 @@ faqTabs.forEach((tab) => {
     }
   });
 });
+
+// swipper JS
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+//
+
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide("#image-carousel", {
+    perPage: 2,
+    cover: true,
+    heightRatio: 0.5,
+    autoScroll: {
+      speed: 1,
+    },
+  }).mount();
+});
+
+//
