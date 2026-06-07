@@ -94,12 +94,21 @@ iframe {
     display: block;
   }
 
+  .socials {
+    padding-top: 0;
+  }
+
   .socials-col {
     width: 100%;
     margin-bottom: 20px;
+    padding: 20px;
   }
 
   .socials {
-    padding: 60px;
+    /* padding: 60px; */
+  }
+
+  .badge {
+    font-size: 14px;
   }
 }
