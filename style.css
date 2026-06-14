@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -110,7 +111,7 @@ nav {
 }
 
 .menu-dropdown {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -246,6 +247,7 @@ Hero
 .hero {
   background-attachment: fixed;
 }
+
 .hero-wrapper {
   width: 100%;
   display: flex;
@@ -436,6 +438,7 @@ Hero
   color: #fff;
   font-weight: 600;
 }
+
 .service-col::after {
   content: "";
   background: linear-gradient(180deg, #ffffff00, #000) rgb(0, 0, 0, 0);
@@ -444,6 +447,7 @@ Hero
   position: absolute;
   top: 0;
 }
+
 .col-content .btn button a {
   padding: 15px 30px;
   background: #fff;
@@ -670,6 +674,7 @@ Hero
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-150%);
   }
@@ -679,6 +684,7 @@ Hero
   0% {
     transform: translateX(-120%);
   }
+
   100% {
     transform: translateX(0);
   }
